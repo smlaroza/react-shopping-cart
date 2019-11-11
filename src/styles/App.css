@@ -224,3 +224,18 @@ select:hover {
   font-size: 30px;
   color: rgba(228, 191, 65);
 }
+
+.cartTitle {
+  color: white;
+  font-size: 20px;
+  padding: 5px 5px;
+  margin-left: 10px;
+}
+
+.cartIcon {
+  display: flex;
+  color: white;
+  font-size: 30px;
+  width: 200px;
+  margin-left: 150px;
+}

@@ -1,6 +1,7 @@
 import React from "react"
 import { useCart } from "../redux/ducks/cart"
-import { list } from "postcss"
+// import { list } from "postcss"
+import ICON from "../lib/Icon"
 
 export default function Cart() {
   const { products, items, cart, addItem, removeItem } = useCart()
@@ -19,6 +20,10 @@ export default function Cart() {
 
   return (
     <div className="cartSide">
+      <div className="cartIcon">
+        <ICON icon="shopping-cart"></ICON>
+        <div className="cartTitle">Cart</div>
+      </div>
       {cart.map((item) => {
         return (
           <div className="sectionCart">

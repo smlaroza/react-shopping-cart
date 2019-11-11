@@ -283,23 +283,43 @@
   "cart": [
     {
       "item": {
-        "id": 12,
-        "sku": 12064273040195392,
-        "title": "Cat Tee Black T-Shirt",
-        "description": "4 MSL",
+        "id": 14,
+        "sku": 10686354557628304,
+        "title": "Sphynx Tie Dye Wine T-Shirt",
+        "description": "GPX Poly 1",
         "availableSizes": [
-          "S",
-          "XS"
+          "X",
+          "L",
+          "XL"
         ],
-        "style": "Black with custom print",
-        "price": 10.9,
-        "installments": 9,
+        "style": "Front tie dye print",
+        "price": 9,
+        "installments": 3,
         "currencyId": "USD",
         "currencyFormat": "$",
         "isFreeShipping": true
       },
       "quantity": 1,
-      "id": 3
+      "id": 4
+    },
+    {
+      "item": {
+        "id": 13,
+        "sku": 51498472915966370,
+        "title": "Dark Thug Blue-Navy T-Shirt",
+        "description": "",
+        "availableSizes": [
+          "M"
+        ],
+        "style": "Front print and paisley print",
+        "price": 29.45,
+        "installments": 5,
+        "currencyId": "USD",
+        "currencyFormat": "$",
+        "isFreeShipping": true
+      },
+      "quantity": 1,
+      "id": 5
     }
   ]
 }
