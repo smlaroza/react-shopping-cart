@@ -1,8 +1,8 @@
-import store from '../store'
+import store from "../redux/store"
 
 export function greet(greeting) {
   store.dispatch({
-    type: 'GREETING',
+    type: "GREETING",
     payload: greeting
   })
 }

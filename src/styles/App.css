@@ -1,2 +1,226 @@
-html {box-sizing:border-box;}
-*, *::before, *::after {box-sizing:inherit;}
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: arial;
+}
+
+.mainPage {
+  width: 100%;
+}
+.sizingContainer {
+  margin-top: -20px;
+  margin-left: 5%;
+  width: 108%;
+}
+.sizeChoice {
+  display: flex;
+  flex-wrap: wrap;
+  width: 69%;
+  margin-right: 0;
+}
+
+.sizes {
+  background: rgba(236, 236, 236);
+  border-radius: 50%;
+  padding: 2px 2px;
+  font-size: 13px;
+  text-align: center;
+  line-height: 30px;
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.cartContainer {
+  width: 93%;
+  margin-left: -5px;
+  margin-right: 20px;
+}
+
+.imgContainer {
+  width: 24%;
+  margin: 5px;
+}
+
+.imgContainer:hover {
+  border: 1px solid rgba(236, 236, 236);
+  padding: 10px;
+}
+
+.mainPage {
+  display: flex;
+  margin-top: 30px;
+}
+
+.lowToHigh {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 5px;
+}
+
+.productDisplay {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.orderContain {
+  display: flex;
+}
+
+select {
+  width: 120px;
+  font-size: 17px;
+  border: 1px solid rgba(236, 236, 236);
+  outline: none;
+}
+
+select:hover {
+  border: 1px solid black;
+}
+
+.prodCaption {
+  text-align: center;
+}
+
+.order {
+  margin-right: 10px;
+}
+
+.orPrice {
+  color: gray;
+}
+
+.mult {
+  color: gray;
+}
+
+.prodPrice {
+  font-size: 20px;
+  font-weight: Bold;
+}
+
+.mainButton {
+  padding: 20px;
+  background: black;
+  color: white;
+  width: 220px;
+  outline: none;
+}
+
+.mainButton:hover {
+  background: rgba(228, 191, 65);
+}
+
+.sub {
+  color: gray;
+}
+
+.shirtName {
+  margin-left: 12px;
+  font-size: 16px;
+  color: white;
+}
+.shirtPrice {
+  color: rgba(192, 161, 59);
+  padding: 25px 25px;
+  font-size: 14px;
+  text-align: right;
+}
+
+#sidebar {
+  padding: 30px 30px;
+}
+
+.cartSide {
+  border-top: 1px solid black;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.eraseCart {
+  background: transparent;
+  border: none;
+  font-weight: bold;
+  font-size: 17px;
+  outline: none;
+  cursor: pointer;
+}
+
+.sideContainer {
+  height: auto;
+  width: auto;
+}
+
+.totalDiv {
+  color: gray;
+  margin-top: 10px;
+}
+
+.subT {
+  color: rgba(228, 191, 65);
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.sbtInstallments {
+  color: gray;
+  font-size: 12px;
+  text-align: right;
+}
+
+.checkOut {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sectionCart {
+  display: flex;
+  text-align: left;
+  margin-bottom: 30px;
+  border-bottom: 1px solid black;
+}
+
+.checkOutBut {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  margin-top: 20px;
+  outline: none;
+  cursor: pointer;
+}
+
+.removeButton {
+  text-align: right;
+}
+
+.itemPhoto {
+  padding: 20px;
+}
+
+.freeShip {
+  background: black;
+  color: white;
+  width: 100px;
+  float: Right;
+  text-align: center;
+}
+
+.ui.secondary.button {
+  box-shadow: 0 0 0 0 rgba(34, 36, 38, 0.15) inset;
+  float: right;
+}
+
+.dash {
+  font-size: 30px;
+  color: rgba(228, 191, 65);
+}
