@@ -1,6 +1,5 @@
 import React from "react"
 import { useCart } from "../redux/ducks/cart"
-// import { list } from "postcss"
 import ICON from "../lib/Icon"
 
 export default function Cart() {

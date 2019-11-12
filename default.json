@@ -283,24 +283,23 @@
   "cart": [
     {
       "item": {
-        "id": 14,
-        "sku": 10686354557628304,
-        "title": "Sphynx Tie Dye Wine T-Shirt",
-        "description": "GPX Poly 1",
+        "id": 12,
+        "sku": 12064273040195392,
+        "title": "Cat Tee Black T-Shirt",
+        "description": "4 MSL",
         "availableSizes": [
-          "X",
-          "L",
-          "XL"
+          "S",
+          "XS"
         ],
-        "style": "Front tie dye print",
-        "price": 9,
-        "installments": 3,
+        "style": "Black with custom print",
+        "price": 10.9,
+        "installments": 9,
         "currencyId": "USD",
         "currencyFormat": "$",
         "isFreeShipping": true
       },
       "quantity": 1,
-      "id": 4
+      "id": 1
     },
     {
       "item": {
@@ -319,7 +318,7 @@
         "isFreeShipping": true
       },
       "quantity": 1,
-      "id": 5
+      "id": 2
     }
   ]
 }
